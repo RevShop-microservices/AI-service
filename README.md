@@ -35,7 +35,6 @@ The **AI Service** is a Spring Boot microservice that powers the intelligent sho
 | **AI / LLM** | Ollama (`phi3:mini` for generation, `nomic-embed-text` for embeddings) |
 | **Vector Search** | In-process cosine similarity via `VectorUtils` |
 | **Data - Document** | Spring Data MongoDB (`products`, `chat_history`) |
-| **Data - Relational** | Spring Data JPA, MySQL 8 (`reviews`) |
 | **Security** | Spring Security, JJWT 0.11.5 |
 | **Service Discovery** | Spring Cloud Netflix Eureka Client |
 | **Centralized Config** | Spring Cloud Config Client |
